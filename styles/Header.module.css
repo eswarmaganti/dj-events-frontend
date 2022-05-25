@@ -1,0 +1,12 @@
+.header {
+  @apply flex items-center justify-between px-10 py-3 shadow-lg;
+}
+.brand {
+  @apply text-yellow-400 text-xl font-bold;
+}
+.navbarInner {
+  @apply flex items-center justify-between gap-6;
+}
+.link {
+  @apply p-1 hover:text-yellow-400 border-b border-transparent hover:border-yellow-400 transition duration-200 ease-out;
+}
